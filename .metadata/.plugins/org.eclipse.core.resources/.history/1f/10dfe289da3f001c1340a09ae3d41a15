@@ -1,0 +1,4 @@
+package br.com.springboot.crud.user;
+
+@Repository
+public interface UserRepository extends CrudRepository<User, Long> {}

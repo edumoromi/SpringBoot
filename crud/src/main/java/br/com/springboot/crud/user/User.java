@@ -9,7 +9,7 @@ import org.springframework.data.annotation.Id;
 public class User {
     
     @Id
-    @Generated(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
     
     @NotBlank(message = "Name is mandatory")
